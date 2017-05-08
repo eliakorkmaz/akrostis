@@ -28,3 +28,7 @@ You can also use **Acrostis** with _single_id_ like that:
 npm init
 npm install
 ```
+
+## TODOS
+- [ ] Clean/Delete some trash files(images,tested files etc.)
+- [ ] Get functionality for request handler / poem creater actions.
