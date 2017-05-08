@@ -3,124 +3,124 @@ var fnc = require('./others');
 
 module.exports = {
 	predictSentence : function(sentence){
-		var deger = "";
+		var value = "";
 		switch(sentence){
 			case 'A':
 			case 'a':
-				deger = fnc.getArrayA();
+				value = fnc.getArrayA();
 				break;
 			case 'B':
 			case 'b':
-				deger = fnc.getArrayB();
+				value = fnc.getArrayB();
 				break;
 			case 'C':
 			case 'c':
-				deger = fnc.getArrayC();
+				value = fnc.getArrayC();
 				break;
 			case 'Ç':
 			case 'ç':
-				deger = func.getArrayCc();
+				value = func.getArrayCc();
 				break;
 			case 'D':
 			case 'd':
-				deger = fnc.getArrayD();
+				value = fnc.getArrayD();
 				break;
 			case 'E':
 			case 'e':
-				deger = fnc.getArrayE();
+				value = fnc.getArrayE();
 				break;
 			case 'F':
 			case 'f':
-				deger = fnc.getArrayF();
+				value = fnc.getArrayF();
 				break;
 			case 'G':
 			case 'g':
-				deger = fnc.getArrayG();
+				value = fnc.getArrayG();
 				break;
 			case 'H':
 			case 'h':
-				deger = fnc.getArrayH();
+				value = fnc.getArrayH();
 				break;
 			case 'I':
 			case 'ı':
-				deger = fnc.getArrayI();
+				value = fnc.getArrayI();
 				break;
 			case 'İ':
 			case 'i':
-				deger = fnc.getArrayIi();
+				value = fnc.getArrayIi();
 				break;
 			case 'J':
 			case 'j':
-				deger = fnc.getArrayJ();
+				value = fnc.getArrayJ();
 				break;
 			case 'K':
 			case 'k':
-				deger = fnc.getArrayK();
+				value = fnc.getArrayK();
 				break;
 			case 'L':
 			case 'l':
-				deger = fnc.getArrayL();
+				value = fnc.getArrayL();
 				break;
 			case 'M':
 			case 'm':
-				deger = fnc.getArrayM();
+				value = fnc.getArrayM();
 				break;
 			case 'N':
 			case 'n':
-				deger = fnc.getArrayN();
+				value = fnc.getArrayN();
 				break;
 			case 'O':
 			case 'o':
-				deger = fnc.getArrayO();
+				value = fnc.getArrayO();
 				break;
 			case 'Ö':
 			case 'ö':
-				deger = fnc.getArrayOo();
+				value = fnc.getArrayOo();
 				break;
 			case 'P':
 			case 'p':
-				deger = fnc.getArrayP();
+				value = fnc.getArrayP();
 				break;
 			case 'R':
 			case 'r':
-				deger = fnc.getArrayR();
+				value = fnc.getArrayR();
 				break;
 			case 'S':
 			case 's':
-				deger = fnc.getArrayS();
+				value = fnc.getArrayS();
 				break;
 			case 'Ş':
 			case 'ş':
-				deger = fnc.getArraySs();
+				value = fnc.getArraySs();
 				break;
 			case 'T':
 			case 't':
-				deger = fnc.getArrayT();
+				value = fnc.getArrayT();
 				break;
 			case 'U':
 			case 'u':
-				deger = fnc.getArrayU();
+				value = fnc.getArrayU();
 				break;
 			case 'Ü':
 			case 'ü':
-				deger = fnc.getArrayUu();
+				value = fnc.getArrayUu();
 				break;
 			case 'V':
 			case 'v':
-				deger = fnc.getArrayV();
+				value = fnc.getArrayV();
 				break;
 			case 'Y':
 			case 'y':
-				deger = fnc.getArrayY();
+				value = fnc.getArrayY();
 				break;
 			case 'Z':
 			case 'z':
-				deger = fnc.getArrayZ();
+				value = fnc.getArrayZ();
 				break;
 			default:
-				deger = " ";
+				value = " ";
 				break;
 		}
-		return deger;
+		return value;
 	}
 }
