@@ -1,0 +1,13 @@
+html
+	head
+		title Şiiriniz
+		style
+			include main.css	
+	body
+		h1(id="bratan") Şiiriniz
+		ul
+			each user in json
+				p#personal= user
+		div#footer
+			p(id="footerp" href="https://github.com/eliakorkmaz/") <a id="akr" href="http://localhost:3000/">Akrostis</a>
+			p(id="last") Made with <span id="hrt"> &#9829 </span> by <a id="elia" href="https://github.com/eliakorkmaz/"> Elia </a> in <a id="komuns" href="https://github.com/komun-community"> KomunLabs

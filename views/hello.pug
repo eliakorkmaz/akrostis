@@ -1,0 +1,11 @@
+doctype html
+html
+	head 
+		title Akrostis
+	body
+		form(action="/", method="POST")
+			div
+				label(for="say") Say:
+				input(name="say" value="Hi" maxlength="16")
+			br
+			button(type="submit") Send My Name!

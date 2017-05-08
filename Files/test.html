@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="tr" lang="tr">
+<meta charset="utf-8" />
+<head>
+<meta charset="utf-8" />
+
+  <title>
+    Akrostiş
+  </title>
+  <style>
+    /* style.css */
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 3px solid blue;
+        border-radius: 2px;
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+    input[type=text]:focus {
+        font-size:20px;
+        font: 44/20px Futura , sans-serif;
+        /*border: 2px solid #555;*/
+    }
+    input {
+      font-weight: bold;
+      outline:none;
+      text-align:center;
+      width: 400px;
+      padding: 0 20px;
+    }
+    input::-webkit-input-placeholder {
+      font: 44px/20px Futura, sans-serif;
+      font-size: 20px;
+      line-height: 3;
+    }
+    input::-moz-placeholder {
+      font-size: 20px;
+      line-height: 3;
+    } /* Firefox 19+ */
+    input:-moz-placeholder {
+      font-size: 20px;
+      line-height: 3;
+    }  /* Firefox 18- */
+    input:-ms-input-placeholder {
+      font-size: 20px;
+      line-height: 3;
+    } /* IE */
+    h1 {
+      width: 100%;
+      color: #8000ff;
+    }
+    button {
+      margin:auto;
+      display:block;
+      font-size: 20px;
+      font-family: Futura;
+      background-color: white;
+      color: black;
+      border: 2px solid #555555;
+      padding: 8px 36px;
+    }
+    body {
+      font: 44px/20px Futura, sans-serif;
+    }
+    footer {
+      position:absolute;
+      bottom:0;
+      width:90%;
+      height:60;   /* Height of the footer */
+    }
+    span.terim{
+      background-color: gray;
+      font-size: 16px;
+    }
+    p.italico{
+      font-style: italic;
+      font-size: 16px;
+    }
+  </style>
+
+  
+</head>
+
+<body>
+  <h1>* Akrostiş</h1>
+  
+  <form class="pure-form" action='/' method="POST" accept-charset="utf8">
+    <input type="text" class="pure-input-rounded" placeholder="Birşeyler Girin (maksimum 14 harf)" maxlength="14" name="enteredName">
+    <br>
+    <br>
+    <button type="submit" class="pure-button">Üret</button>
+  </form>
+
+    <footer>
+      <p>*Akrostiş</p>
+      <p> <span class="terim">YAZIN TERİMİ</span> </p>
+      <p class="italico"> dizelerinin ilk harfleri yukarıdan aşağıya doğru okunduğu zaman ortaya bir söz (örneğin ozanın ya da dizelerin adandığı kimsenin adı) çıkacak biçimde yazılmış koşuk ya da koşuk bölümü. </p>
+    </footer>
+
+</body>
+
+</html>
