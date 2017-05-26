@@ -1,21 +1,21 @@
 # Akrostis
 
-`What is acrostic ?`
+## What is acrostic ?
 > An acrostic is a poem in which the first letter (or syllable, or word) of each line spells out a word, message or the alphabet.
 
-`What does it do ?`
+## What does it do ?
 
 **Akrostis** is a **poem** generator for what you want to type in **Turkish**.
 
-`Live Preview`
+## Live Preview
 
 [Akrostis](https://akrostis.me)
 
-`Acrostic poem for Github`
+## Acrostic poem for Github
 
 [Akrostis with Github](https://akrostis.me/Github)
 
-`Other Usage`
+## Other Usage
 
 You can also use **Acrostis** with _single_id_ like that:
 
@@ -23,7 +23,7 @@ You can also use **Acrostis** with _single_id_ like that:
 * **_akrostis.me/elia_**
 * **_akrostis.me/komun_** etc.
 
-`to Install project` 
+### to Install project
 ```javascript
 npm init
 npm install
